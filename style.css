@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    margin: 15px;
+}
+
+.rodape {
+    text-align: center;
+    font-size: 22px;
+    color: #999;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+}

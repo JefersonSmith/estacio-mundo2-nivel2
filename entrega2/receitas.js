@@ -22,7 +22,7 @@ let receitas = [ //JSON
   {
     "titulo": "Coxinha de Brigadeiro",
     "imagem": "../img/coxinha.jpeg",
-    "ingredientes": ['Leite COndensado',
+    "ingredientes": ['Leite Condensado',
     'Chocolate em Pó',
     'Manteiga',
     'Morango',
@@ -42,7 +42,7 @@ function getListaIngredientes(receita) {
 
 function getCard(receita) { 
   let card = `
-    <div class='card rounded-3 my-4' style='width: 250px; height: 600px;'> 
+    <div class='card rounded-3 my-4' style='width: 330px; height: 600px;'> 
       <img src='${receita.imagem}' class='card-img-top'>
       <div class='card-body'>
         <h5 class='card-title text-center fs-4 p-2 fw-bold'>${receita.titulo}</h5>
